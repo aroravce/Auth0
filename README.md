@@ -2,6 +2,16 @@
 
 This sample demonstrates how to make secure calls to an API after authenticating a user with Auth0. The sample get its dependencies from npm and a small Node.js server is provided to run the application.
 
+1. Register users
+2. Login users
+3. Users can navigate in the app with unverified email
+4. An API is done and protected
+5. User can only access this API with verified email and proper Access token
+6. I can make User info call for user profile
+7. I have a test API set up which can call Auth0 Management API for accessing IDP token.
+8. I was in a process to use that token to make Google call for contacts ( which unfortunately I can not)
+
+
 ## Getting Started
 
 If you haven't already done so, [sign up](https://auth0.com) for your free Auth0 account and create a new client in the [dashboard](https://manage.auth0.com). Find the **domain** and **client ID** from the settings area and add the URL for your application to the **Allowed Callback URLs** box. If you are using the server provided in this sample, that URL is `http://localhost:3000/callback`.
