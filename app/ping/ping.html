@@ -1,0 +1,20 @@
+<h1>Welcome to Pizza42 !! Order your Pizza here</h1>
+
+<p *ngIf="!auth.isAuthenticated()">
+  You must be logged in to order a pizza
+</p>
+
+<button
+  class="btn btn-primary"
+  ng-click="vm.ping()">
+    Get Menu
+</button>
+
+<button
+  class="btn btn-primary"
+  ng-click="vm.securedPing()" 
+  ng-if="vm.auth.isAuthenticated()">
+    Make an Order
+</button>
+
+<h2>{{ vm.message }}</h2>
