@@ -10,7 +10,7 @@
 
   function pingController($http, authService) {
 
-    var API_URL = 'http://ec2-18-216-229-108.us-east-2.compute.amazonaws.com:3001/api';
+    var API_URL = 'http://ec2-13-58-4-177.us-east-2.compute.amazonaws.com:3001/api';
     var vm = this;
     vm.auth = authService;
     vm.message = '';

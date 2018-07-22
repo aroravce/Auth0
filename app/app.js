@@ -64,7 +64,7 @@
       tokenGetter: function() {
         return localStorage.getItem('access_token');
       },
-      whiteListedDomains: ['localhost','ec2-18-216-229-108.us-east-2.compute.amazonaws.com']
+      whiteListedDomains: ['localhost','ec2-13-58-4-177.us-east-2.compute.amazonaws.com']
     });
 
     $httpProvider.interceptors.push('jwtInterceptor');
